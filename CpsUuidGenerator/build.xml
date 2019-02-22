@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="uuid-ivy" default="run">  
+    <target name="run">  
+        <java classname = "com.thomson.platform.content.util.UUIDGenerator">  
+            <classpath>
+            	<pathelement path="${classpath}"/>
+            </classpath>  
+        </java>  
+    </target>  
+	
+</project>  
+

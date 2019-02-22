@@ -1,0 +1,6 @@
+<ivy-module version="2.0">
+    <info organisation="org.techm" module="uuid-ivy"/>
+    <dependencies>
+        <dependency org="com.westgroup.publishingservices.uuidgenerator" name="uuid-generator" rev="2.1.0.0" />
+    </dependencies>
+</ivy-module>
